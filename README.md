@@ -1,2 +1,20 @@
-# PersonallExpenseTracker
-Java, Swing  Built an  Java desktop application that helps users track their daily expenses. The app includes a clean GUI made with Swing, where users can add, view, update, and delete their expenses. Expense data is stored using file handling so the records stay saved even after closing the app. 
+# Premium Expense Tracker (Java Swing)
+
+A premium-looking GUI-based personal expense tracker built in Java Swing.
+
+## Project Structure
+PersonalExpenseTracker/
+├── src/
+│   └── PremiumExpenseTracker.java
+├── data/
+│   └── expenses.csv (auto-created)
+└── README.md
+
+## How to Run
+Open terminal in `PersonalExpenseTracker/src`
+
+Compile:
+  javac PremiumExpenseTracker.java
+
+Run:
+  java PremiumExpenseTracker
